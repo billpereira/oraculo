@@ -1,0 +1,26 @@
+{
+  "name": "oraculo",
+  "version": "1.0.0",
+  "description": "scrape stock information and suggest best investments",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billpereira/oraculo.git"
+  },
+  "author": "William, Jackson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/billpereira/oraculo/issues"
+  },
+  "homepage": "https://github.com/billpereira/oraculo#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "nightmare": "^3.0.1",
+    "nightmare-window-manager": "^0.2.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
